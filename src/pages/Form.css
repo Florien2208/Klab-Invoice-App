@@ -1,0 +1,91 @@
+.my-form {
+  background-color: #1e2139;
+  display: flex;
+  gap: 5rem;
+  width: 500px;
+  text-align: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  align-items: center;
+  border-radius: 5px;
+  border: 0px;
+  color: white;
+  text-decoration: solid;
+  justify-content: center;
+  height: 160vh;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+}
+.input {
+  width: 400px;
+  height: 40px;
+  background-color: #252945;
+  border-radius: 15px;
+}
+.line {
+  height: 40px;
+  width: 130px;
+  background-color: #252945;
+  border-radius: 15px;
+  outline: none;
+  border: none;
+  /* align-items: center;
+  justify-content: center; */
+}
+.input1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.input2 {
+  height: 40px;
+  width: 200px;
+  background-color: #252945;
+  color: white;
+  border-radius: 15px;
+  outline: none;
+  border: none;
+}
+#button {
+  font-family: "Arial", sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  border-radius: 15px;
+  background-color: rgb(15, 15, 56);
+  color: white;
+  height: 35px;
+  width: 130px;
+  size: 80px;
+  outline: none;
+  border: none;
+}
+#button:hover {
+  background-color: white;
+  /* color: orange; */
+}
+.hello {
+  color: blue;
+}
+#button1 {
+  font-family: "Arial", sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  border-radius: 15px;
+  background-color: rgb(15, 15, 56);
+  color: white;
+  height: 35px;
+  width: 400px;
+  size: 80px;
+  outline: none;
+  border: none;
+}
+#button1:hover {
+  background-color: white;
+  /* color: orange; */
+}
